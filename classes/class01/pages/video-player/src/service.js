@@ -2,7 +2,7 @@ const EAR_THRESHOLD = 0.24;
 
 import { prepareRunChecker } from "../../../lib/shared/util.js";
 
-const { shouldRun } = prepareRunChecker({timerDelay: 1500})
+const { shouldRun } = prepareRunChecker({timerDelay: 500})
 
 export default class Service {
   #model = null
