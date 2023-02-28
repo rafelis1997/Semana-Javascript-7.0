@@ -63,9 +63,6 @@ export default class Service {
         continue
       }
 
-      console.log("right", this.#blinkCounterRight)
-
-     
       if (shouldRun()) {
         this.#blinkCounterRight = 0
         this.#blinkCounterLeft = 0
