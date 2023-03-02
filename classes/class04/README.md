@@ -11,6 +11,10 @@ Marque esse projeto com uma estrela 🌟
 
 - Este projeto foi criado usando Node.js v19.6
 
+## Live demo
+- Para testar o projeto final [clique aqui]()
+
+
 ## Running
 
 - Execute `npm ci` para restaurar os pacotes
@@ -23,7 +27,7 @@ Marque esse projeto com uma estrela 🌟
   - [x] - Deve disparar scroll up quando usar a palma das mãos abertas 🖐
   - [x] - Deve disparar scroll down quando usar a palma das mãos fechadas ✊
   - [x] - Deve disparar click no elemento mais próximo quando usar  gesto de pinça 🤏🏻
-  - [] - Ao mover elementos na tela, deve disparar evento **:hover** em elementos em contexto
+  - [x] - Ao mover elementos na tela, deve disparar evento **:hover** em elementos em contexto
 
 - Video Player
   - [x] - Deve ser possivel de reproduzir ou pausar videos com o piscar de olhos 😁
@@ -33,7 +37,7 @@ Marque esse projeto com uma estrela 🌟
 - [x] - Aula 01 - Diferenciar piscada de olhos entre olho direito e esquerdo e atualizar log para mostrar qual olho que piscou.
 - [x] - Aula 02 - Reconhecer gestos de mãos individuais e printar no log
 - [x] - Aula 03 - z-index acima dos modais
-- [] - Aula 04 - A definir
+- [x] - Aula 04 - A definir
 
 ### Considerações
 - Tire suas dúvidas sobre os desafios em nossa comunidade, o objetivo é você aprender de forma divertida. Surgiu dúvidas? Pergunte por lá!

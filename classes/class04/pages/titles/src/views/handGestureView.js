@@ -24,7 +24,7 @@ export default class HandGestureView {
   }
 
   drawResults(hands) {
-    for (const { keypoints } of hands) {
+    for (const { keypoints, handedness } of hands) {
       if (!keypoints) continue
       
       this.#canvasContext.fillStyle = 'rgb(44,212,103)'
@@ -35,7 +35,7 @@ export default class HandGestureView {
       //Juntas
       this.#drawJoints(keypoints)
       //Dedos
-      this.#drawFingersAndHoverElements(keypoints)
+      this.#drawFingersAndHoverElements(keypoints, handedness)
     }
   }
 
@@ -69,7 +69,7 @@ export default class HandGestureView {
     }
   }
 
-  #drawFingersAndHoverElements(keypoints) {
+  #drawFingersAndHoverElements(keypoints, handedness) {
     const fingers = Object.keys(this.#fingerLookupIndexes)
     for (const finger of fingers) { 
       const points = this.#fingerLookupIndexes[finger].map(
@@ -83,7 +83,9 @@ export default class HandGestureView {
         region.lineTo(point.x, point.y)
       }
       this.#canvasContext.stroke(region)
-      this.#hoverElement(finger, points)
+      if (handedness.toLowerCase === "right") {  
+        this.#hoverElement(finger, points)
+      }
     }
   }
 
