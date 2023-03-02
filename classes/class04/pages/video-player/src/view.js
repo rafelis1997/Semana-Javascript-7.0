@@ -32,7 +32,12 @@ export default class View {
   configureOnBtnClick(fn) {
     this.#btnInit.addEventListener('click', fn)
   }
+
   log(text) {
     this.#statusElement.innerHTML = text
+  }
+
+  setVideoSrc(url) {
+    this.#videoElement.src = url
   }
 }
