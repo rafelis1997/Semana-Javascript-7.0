@@ -83,7 +83,7 @@ export default class HandGestureView {
         region.lineTo(point.x, point.y)
       }
       this.#canvasContext.stroke(region)
-      if (handedness.toLowerCase === "right") {  
+      if (handedness.toLowerCase() === "right") {  
         this.#hoverElement(finger, points)
       }
     }
