@@ -46,9 +46,3 @@ Marque esse projeto com uma estrela 🌟
 
 ### Créditos ao Layout
 - Interface baseada no projeto [Streaming Service](https://codepen.io/Gunnarhawk/pen/vYJEwoM) de [gunnarhawk](https://github.com/Gunnarhawk)
-
-## Chaves da semana
-VIKING_HACKERZAO
-TERMINEI_SÓ_FALTA_TESTAR
-NA_MINHA_MAQUINA_FUNCIONA
-JAVASCRIPT_É_SENSACIONAL
