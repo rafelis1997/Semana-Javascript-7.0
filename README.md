@@ -28,6 +28,7 @@ Marque esse projeto com uma estrela 🌟
   - [x] - Deve disparar scroll down quando usar a palma das mãos fechadas ✊
   - [x] - Deve disparar click no elemento mais próximo quando usar  gesto de pinça 🤏🏻
   - [x] - Ao mover elementos na tela, deve disparar evento **:hover** em elementos em contexto
+  - [] - Transformar projeto em uma extensão para o google chrome  
 
 - Video Player
   - [x] - Deve ser possivel de reproduzir ou pausar videos com o piscar de olhos 😁
